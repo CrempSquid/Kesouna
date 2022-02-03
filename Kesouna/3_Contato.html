@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<link rel="stylesheet" type="text/css" href="css/1_cabecalho.css"/>	
+		<link rel="stylesheet" type="text/css" href="css/3_formulario.css"/>
+        <link rel="icon" href="img/FaviconKesouna.png" type="image/png">
+		<meta charset="UTF-8"/>	
+		<lang =pt-BR/>
+		<title>Contato</title>
+    </head>
+    <body>
+        <header>
+            <!--Container Logo e texto-->
+            <div class="imagem-logo"></div>
+            <div class="texto-logo">
+                <h1><a href="file:///E:/Kesouna/1_Index.html">Kesouna</a></h1>
+            </div>
+    
+            <!--Menu-->
+            <nav>
+                <div>
+                    <ul class="menu">
+                        </li>				
+                        <li><a href="file:///E:/Kesouna/4_Sobre.html">Sobre</a></li>
+                        <li>
+                            <select class="escritos" onchange="location=this.value">
+                                <option>&#128065;</option>
+                                <option value="file:///E:/Kesouna/5_N%C3%A3oRepitaSenhas.html">Não repita senhas</option>
+                                <option value="file:///E:/Kesouna/6_Phishing,%20Pharming%20e%20Falsifica%C3%A7%C3%A3o.html#">Phishing, Pharming e Falsificação</option>
+                                <option value="file:///E:/Kesouna/7_VPN.html">VPN</option>
+                                <option value="file:///E:/Kesouna/8_NavegadoresDeInternet.html">Navegadores de internet</option>
+                                <option value="file:///E:/Kesouna/9_RedesSociais.html">Redes sociais</option>
+                                <option value="file:///E:/Kesouna/10_Pol%C3%ADticaDePrivacidade.html">Política de privacidade</option>
+                            </select>
+                            </select>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!--Formulário entrar cadastrar-->
+		<div class="box">
+			 <form action="">
+            <fieldset>
+                <legend><b>Contato</b></legend>
+                <br>
+                <div class="inputBox">
+                    <input type="text" name="nome" id="nome" class="inputUser" required>
+                    <label for="nome" class="labelInput">Nome completo</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="text" name="email" id="email" class="inputUser" required>
+                    <label for="email" class="labelInput">Email</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="tel" name="telefone" id="telefone" class="inputUser" required>
+                    <label for="telefone" class="labelInput">Telefone</label>
+                </div>
+                <div class="inputBox">
+				<br><br>
+                <div class="inputBox">
+                    <input type="text" name="endereco" id="endereco" class="inputUser" required>
+                    <label for="endereco" class="labelInput">Endereço</label>
+                </div>
+                <br><br>
+				<label for="opiniao" class="observacao">Observação</label> <br/>
+				<textarea cols=45 rows=10 id="obeservacao" name="observacao" maxlength="10000" wrap="on"></textarea>
+				<br><br>  
+                <input type="submit" name="submit" id="submit">
+                <input type="reset" name="limpar" id="reset">
+            </fieldset>
+        </form>
+		</div>    
+        
+		<h2>Encontre-nos às 18:50 ou 22:30 em:</h2>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.986171748979!2d-46.649382185338325!3d-23.53299976642994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce586a12107dfd%3A0x7c3af5da286cd89a!2sEscola%20de%20Neg%C3%B3cios%20%C2%BB%20SEBRAE-SP!5e0!3m2!1spt-BR!2sbr!4v1638221905195!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></iframe>
+    </body>
+</html>

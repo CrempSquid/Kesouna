@@ -1,0 +1,78 @@
+nav {
+	background-color: #000;
+	justify-content: space-around; 
+	padding: 0 20px;
+	align-items: flex-start;
+}
+
+ul {
+	display: flex;
+	padding: 0;
+	overflow: hidden;
+}
+
+nav, ul {
+	direction: flex;
+	flex-direction: row;
+
+}
+
+
+h1 {
+	font-size: 50px;
+	font-family: Magneto;
+	padding: 0 20px;
+}
+
+h1, li, a {	
+	color: #fff;
+	list-style: none;
+	padding: 0 20px;
+}
+
+li {
+	width: 100%;
+}
+ 
+a {
+	text-decoration: none;
+
+}
+
+
+.olho {
+	position: absolute;
+	right: 10%;
+	top: 10px;
+	background-color: darkcyan;
+	cursor: pointer;
+}
+
+.olho:focus~ .navegacao {
+	height: 260px;
+}
+
+.navegacao {
+	display: none;
+
+}
+
+.traducao {
+	position: absolute;
+	left: 50%;
+	top: 10px;
+	background-color: darkcyan;
+	cursor: pointer;
+}
+
+.portugues:focus~ .ingles {
+	height: 260px;
+}
+
+.ingles {
+	overflow: hidden;
+	padding: 0;
+	display: none;
+}
+
+

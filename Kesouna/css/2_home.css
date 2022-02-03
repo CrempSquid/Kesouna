@@ -1,0 +1,292 @@
+/* Corpo */
+
+body {	
+	background-image: linear-gradient(to bottom right, rgb(29, 22, 13), rgb(70, 51, 27));
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 1400px;
+	background-position: center;
+	margin: 0;
+	padding: 0;
+}
+
+/* Formatação de imagens */
+
+.Internet img{
+	margin-left: 0px;
+	border: 8px solid black;
+	background-position: center;
+	height: 450px;
+	width: 1333px;
+	background-color: black;
+}
+
+/* PPF */
+
+.img-PPF img {
+	margin-left: 0px;
+	border: 8px solid black;
+	background-position: center;
+	height: 450px;
+	width: 1333px;
+	background-color: black;
+}
+
+table, td, th {
+	border: 3px solid dodgerblue;
+}
+
+table {
+	border: none;
+	position: absolute;
+	left: 20%;
+	top: 85%;
+	width: 60%;
+	background-color: rgba(0, 0, 0, 0.6);
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: white;
+	padding: 10px;
+	border-radius: 10px;
+	border-spacing: 8px 5px;
+}
+
+td {
+	padding: 30px;
+
+}
+
+tr:nth-child(even) {
+	background-color: rgb(17, 117, 163);
+}
+
+tr:nth-child(odd) {
+	background-color: rgb(14, 58, 124);
+}
+
+/* Formatação dos títulos e paragráfos */
+
+.tituloprincipal {
+	padding-top: 25px;
+	padding-bottom: 20px;
+	font-size: 30px;
+	font-family: verdana;
+	color: white;
+	text-align: center;
+}
+
+.segundotitulo {
+	padding-top: 25px;
+	padding-bottom: 20px;
+	font-size: 30px;
+	font-family: verdana;
+	color: white;
+	text-align: center;
+}
+
+.terceirotitulo {
+	padding-top: 25px;
+	padding-bottom: 20px;
+	font-size: 30px;
+	font-family: verdana;
+	color: white;
+	text-align: center;
+}
+
+
+.quartotitulo {
+	padding-top: 25px;
+	padding-bottom: 20px;
+	font-size: 30px;
+	font-family: verdana;
+	color: white;
+	text-align: center;
+}
+
+.quintotitulo {
+	padding-top: 25px;
+	padding-bottom: 20px;
+	font-size: 30px;
+	font-family: verdana;
+	color: white;
+	text-align: center;
+}
+
+.sextotitulo {
+	padding-top: 25px;
+	padding-bottom: 20px;
+	font-size: 30px;
+	font-family: verdana;
+	color: white;
+	text-align: center;
+}
+
+.setimotitulo {
+	padding-top: 25px;
+	padding-bottom: 20px;
+	font-size: 30px;
+	font-family: verdana;
+	color: white;
+	text-align: center;
+}
+
+p { 
+	text-align: justify;
+	text-indent: 100px;
+	font-size: 20px;
+	font-family: verdana;
+	color: white;
+	padding-right: 200px;
+	padding-left: 200px;
+	padding-bottom: 40px;
+}
+
+/* Sobre */
+
+.sobre {
+	padding-top: 25px;
+	padding-bottom: 20px;
+	font-size: 30px;
+	font-family: verdana;
+	color: white;
+	text-align: center;
+}
+
+/* não repita senhas */
+
+.imagem {
+	margin-left: 0px;
+	border: 8px solid black;
+	background-position: center;
+	height: 450px;
+	width: 1333px;
+	background-color: black;
+}
+
+
+.video-senha {
+	position: absolute;
+	top: 140%;
+	left: 40%;
+	border-radius: 10px;
+}
+
+/* VPN */
+
+.img-VPN img {
+	margin-left: 0px;
+	border: 8px solid black;
+	background-position: center;
+	height: 450px;
+	width: 1333px;
+	background-color: black;
+
+}
+
+.mapadeimagem a{
+	position: absolute;
+	top: 24%;
+	left: 37%;
+	height: 310px;
+	width: 350px;
+	cursor: pointer;
+}
+
+
+.imgNord {
+	height: 200px;
+	width: 250px;
+	border-radius: 10px;
+	margin: 0 5px 0 300px;
+
+}
+
+.imgSurf {
+	height: 200px;
+	width: 250px;
+	border-radius: 10px;
+	margin: 0 5px 0 0;
+
+
+}
+
+.imgProton {
+	height: 200px;
+	width: 250px;
+	border-radius: 10px;
+	margin: 0 10px 0 0;
+
+}
+
+.video-VPN {
+	position: absolute;
+	top: 220%;
+	left: 40%;
+	border-radius: 10px;
+}
+
+/* Navegadores */
+
+.navegador-imagem img {
+	border: 8px solid black;
+	background-position: center;
+	height: 450px;
+	width: 1333px;
+	background-color: black;
+}
+
+.navegadoresseguros{
+	font-family: verdana;
+	font-size: 20px;
+	padding-right: 500px;
+	padding-left: 200px
+	
+}
+
+.navegador {
+	position: absolute;
+	top: 170%;
+	left: 40%;
+	border-radius: 10px;
+}
+
+/* Redes sociais */
+
+.img_txt-redessociais img {
+	border: 8px solid black;
+	background-position: center;
+	height: 450px;
+	width: 1333px;
+	background-color: black;
+}
+
+.redessociais {
+	position: absolute;
+	top: 150%;
+	left: 40%;
+	border-radius: 10px;
+}
+
+/* Política de privacidade */
+
+.Tosdr {
+	margin: 0 0 0 36%;	
+	width: 400px;
+	border-radius: 100px;
+}
+
+/* Seta voltar ao topo */
+
+#topo {
+	transform: rotate(270deg);
+	border-radius: 10px;
+	text-decoration:none;
+	color:white;
+	background-image: linear-gradient(to right,rgb(0, 80, 172), rgb(80, 19, 195));
+	padding: 10px;
+	position: fixed;
+	right: 20px;
+	bottom: 15px;
+	border: 2px solid rgba(0, 0, 0, 0.6);;	
+}
+
+
